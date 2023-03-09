@@ -101,7 +101,7 @@ services:
       --http.api eth,net,web3,debug
       --rpc.gascap 100000000000
     ports:
-      - ${L1GETH_HTTP_PORT:-8545}:9545
+      - ${L1GETH_HTTP_PORT:-9545}:8545
 
   coordinator:
     init: true
